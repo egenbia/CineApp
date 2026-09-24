@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: '#0F172A',
+    backgroundColor: '#24282a',
   },
   container: {
     flex: 1,
@@ -43,7 +43,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   card: {
-    backgroundColor: '#1E293B',
+    backgroundColor: '#671a20',
     borderRadius: 14,
     marginBottom: 16,
     width: '48%',
@@ -51,7 +51,7 @@ export const styles = StyleSheet.create({
   },
   cardImagem: {
     width: '100%',
-    height: 150,
+    height: 500,
   },
   cardConteudo: {
     padding: 10,

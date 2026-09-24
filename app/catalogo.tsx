@@ -7,13 +7,9 @@ import { filmesIniciais, Filme } from '@/data/filmes';
 import FilmeCard from '@/components/FilmeCard';
 
 export default function Catalogo() {
-  // useState guarda a lista de filmes e o status de favorito de cada um.
-  // É esse estado que muda quando o usuário toca na estrela do FilmeCard.
   const [filmes, setFilmes] = useState<Filme[]>(filmesIniciais);
 
-  // useEffect roda uma única vez, quando a tela de catálogo é montada,
-  // simulando um registro de carregamento dos dados (poderia ser uma
-  // chamada de API no lugar dos dados fixos).
+
   useEffect(() => {
     console.log('Catálogo carregado com', filmes.length, 'filmes');
   }, []);

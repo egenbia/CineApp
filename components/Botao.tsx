@@ -7,7 +7,7 @@ interface BotaoProps {
   cor?: string;
 }
 
-export default function Botao({ texto, onPress, cor = '#2563EB' }: BotaoProps) {
+export default function Botao({ texto, onPress, cor = '#9e2630' }: BotaoProps) {
   return (
     <Pressable
       style={({ pressed }) => [
