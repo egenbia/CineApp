@@ -1,4 +1,4 @@
-import { Text, View } from 'react-native';
+import { Text, View, Image } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { styles } from '@/styles/global';
@@ -8,6 +8,12 @@ export default function Sobre() {
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
+        <Image
+          source={require('../assets/images/banner_sobre.jpg')}
+          style={styles.sobreImagem}
+          resizeMode="cover"
+        />
+
         <Text style={styles.titulo}>Sobre o CineApp</Text>
 
         <Text style={styles.sobreLinha}>

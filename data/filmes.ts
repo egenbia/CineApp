@@ -1,9 +1,11 @@
+import { ImageSourcePropType } from 'react-native';
+
 export interface Filme {
   id: string;
   titulo: string;
   genero: string;
   ano: number;
-  imagem: string;
+  imagem: ImageSourcePropType;
   favorito: boolean;
   sinopse: string;
 }

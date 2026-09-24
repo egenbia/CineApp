@@ -22,20 +22,15 @@ export default function Catalogo() {
     );
   }
 
-  function abrirDetalhes(filme: Filme) {
-    router.push({
-      pathname: '/detalhes',
-      params: {
-        id: filme.id,
-        titulo: filme.titulo,
-        genero: filme.genero,
-        ano: String(filme.ano),
-        imagem: filme.imagem,
-        sinopse: filme.sinopse,
-        favorito: String(filme.favorito),
-      },
-    });
-  }
+function abrirDetalhes(filme: Filme) {
+  router.push({
+    pathname: '/detalhes',
+    params: {
+      id: filme.id,
+      favorito: String(filme.favorito),
+    },
+  });
+}
 
   return (
     <SafeAreaView style={styles.safeArea}>
