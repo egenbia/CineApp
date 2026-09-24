@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CineApp — Catálogo de Filmes
 
 **Nome:** [SEU NOME AQUI]
@@ -75,7 +74,6 @@ abrir no navegador.
 7. **Pressable**: usado no botão reutilizável e no card do filme, com alteração visual
    de opacidade/escala ao ser pressionado.
 8. **Flexbox**: usado em `styles/global.ts` para organizar o catálogo em grade
-   (`numColumns={2}` + `columnWrapperStyle`) e para centralizar conteúdo nas telas.
-=======
+   (`numColumns{2}` + `columnWrapperStyle`) e para centralizar conteúdo nas telas.
+
 # CineApp
->>>>>>> 97dbe52dc38c643113fbc947150c1cf9aedde4ad
